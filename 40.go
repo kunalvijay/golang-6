@@ -7,6 +7,8 @@ import (
 var x bool
 
 func main() {
-	fmt.Println(x)
-	x = true
+	a := 7
+	b := 42
+	fmt.Println(a != b)
+
 }
